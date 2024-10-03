@@ -1,0 +1,26 @@
+.name {
+    padding: 10px;
+}
+
+.image-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    border-radius: 20px;
+}
+
+
+.theme{
+    padding: 10px;
+}
+
+
+
+.foot a{
+    
+    color: white;
+    text-decoration: none;
+    padding: 30px;
+    
+}

@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.card {
+    background-color: white;
+    width: 330px;
+    height: 450px;
+    padding: 0px;
+    box-shadow: 0px 7px 12px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    border-radius: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.02);
+    box-shadow: 0 0 40px rgba(198, 201, 201, 0.922);
+    cursor: pointer;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.container a{
+    
+    text-decoration: none;
+}
+
+.name {
+    padding: 10px;
+    color: black;
+}
+
+.laptop-image {
+    width: 90%;
+    height: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    object-fit: cover;
+}
+
+.image-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    border-radius: 20px;
+}
+
+.theme{
+    padding: 10px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+.details {
+    font-size: 14px;
+    color: #282323;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.foot a{
+    
+    color: white;
+    text-decoration: none;
+    padding: 30px;
+    
+}
+.nnation{
+  font-optical-sizing: auto;
+  font-weight: 5;
+  font-style: normal;
+  font-size: xx-large;
+  align-items: left;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.headline {
+    width: 50%;
+    padding: 40px;
+}
+
+.headline2 {
+    width: 25%;
+    margin: auto;
+    padding: 20px;
+    text-align: left;
+    color: white;
+}
+
+.nnation h1 {
+  margin-bottom: 15px;
+  font-size: 80px;
+  font-weight: 400;
+  font-family:"Bebas Neue", sans-serif;
+  color: #ebe5e0;
+  line-height: 88px;
+  text-align: left;
+  
+}
+
+.nnation h1 span {
+  color: orange;
+}
+
+.headline2 p{
+  margin-bottom: 30px;
+  line-height: 40px;
+  text-align: left;
+  color: white;
+  font-family: 'Open Sans', sans-serif
+
+}
+
+.login-button {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 60px;
+    cursor: pointer;
+    text-decoration: none;
+}
+/* google icons */
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.nav_logo{
+    position: absolute;
+    top: 15px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.nav__logo a {
+  font-size: 28px;
+  font-weight: 400;
+  font-family: "Bebas Neue", sans-serif;
+  color: white;
+  text-decoration: none;
+}
+.nav__logo span{
+  color: orange;
+}
